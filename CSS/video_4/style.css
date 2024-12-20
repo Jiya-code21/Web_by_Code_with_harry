@@ -1,0 +1,19 @@
+*{
+    margin:0;
+    padding:0;
+}
+.box{
+    border:2px solid black;
+   /* width:233px;*/
+   width:100vw;/* Not see horizontal scroll bar*/
+   background-color:aquamarine;
+   margin:auto;
+}
+.container{
+    border:2px solid black;
+   /* width:233px;*/
+   width:100vw;/* Not see horizontal scroll bar*/
+   background-color:aquamarine;
+   height:80vh;
+   margin:23px auto;
+}

@@ -1,0 +1,15 @@
+h1{
+    background-color:yellow;
+    color:red;
+}
+*{
+    margin:0;
+    padding:0;
+}
+
+a:active{
+    background-color:aquamarine;
+}
+a:hover{
+    background-color:yellow;
+}

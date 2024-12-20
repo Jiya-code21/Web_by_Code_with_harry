@@ -1,0 +1,22 @@
+h1{
+    font-family:'Courier New', Courier, monospace;
+    font-size:100px;
+    color:red;
+   
+}
+
+p{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-decoration:underline;
+
+}
+u{
+    text-decoration-color:aqua;
+    text-decoration-style:dotted;
+    font-size:40px;
+  
+}
+h2{
+    text-transform:capitalize;
+  
+}
