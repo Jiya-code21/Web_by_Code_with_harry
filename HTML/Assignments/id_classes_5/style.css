@@ -1,0 +1,13 @@
+/* (.) for class*/
+/* (#) for id*/
+.red{
+background-color:yellow;
+}
+
+#firstdiv{
+    background-color:pink;
+}
+
+#seconddiv{
+    background-color:yellow;
+}
