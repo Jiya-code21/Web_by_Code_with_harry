@@ -1,0 +1,25 @@
+*{
+    margin:0;
+    padding:0;
+}
+.box{
+    border:2px solid black;
+    height:130px;
+    width:280vw;
+    margin:3px;
+    padding:3px;
+}
+.box1{
+background-color:aqua;
+
+}
+.box2{
+    background-color:yellow;
+    top:28px;
+}
+.box3{
+    background-color:pink;
+}
+.box4{
+    background-color:blueviolet;
+}
