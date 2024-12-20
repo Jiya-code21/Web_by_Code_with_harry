@@ -4,7 +4,23 @@
 }
 .box{
     border:2px solid blue;
-display:inline;
-padding:45px;
-margin:34px;
+display:inline-block;
+margin:100px;
+padding:100px;
+border:2px solid black;
+box-shadow:20px 10px 20px yellow;
+outline:2px solid black;
+overflow:scroll;/*overflow kare toh scrooll bar show */
+/*Highly recommend (overflow:auto) to use...*/
+overflow:auto;/*if not shown overflow then no scroll bar*/
+/*For specific axis...*/
+overflow-x:hidden;
+overflow-y:hidden;
+}
+
+div ul li{
+    
+    background-color:yellow;
+    list-style-position:inside;
+    border:2px solid black;
 }
