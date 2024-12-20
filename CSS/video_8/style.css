@@ -1,0 +1,24 @@
+*{
+    margin:0;
+    padding:0;
+
+}
+
+img{
+    float:right;
+}
+
+.cards{
+    border:2px solid black;
+    display:flow-root;/*overflow ko rokne ke liye*/
+}
+.card{
+    border:2px solid red;
+}
+.card:nth-child(2){
+background-color:yellow;
+clear:right;
+}
+.card:nth-child(3){
+    background-color:pink;
+}
