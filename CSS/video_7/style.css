@@ -1,0 +1,27 @@
+*{
+    margin:0;
+    padding:0;
+}
+.nav{
+    background-color:skyblue;
+}
+.container{
+    background-color:yellow;
+}
+
+ul{
+    display:flex;
+}
+ul li{
+    list-style:none;
+    padding:30px;
+}
+ul li:first-child{
+    color:blueviolet;
+    background-color:red;
+} 
+@media only screen and (min-width:455px){
+    body{
+        background-color:blue;
+    }
+}
