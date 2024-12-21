@@ -1,0 +1,35 @@
+*{
+    margin:0;
+padding:0;
+}
+.item{
+height:40px;
+width:40px;
+background-color:blueviolet;
+border:2px solid black;
+margin:4px;
+}
+.container{
+border:2px solid yellow;
+display:flex;
+height:80vh;
+/*justify-content:flex-end;*/
+/*justify-content:flex-start;*/
+/*justify-content:space-around;*/
+/*justify-content:space-between;*/
+/*justify-content:space-evenly;*/
+/*justify-content:center;*/
+/*Same done with the align items...*/
+align-items:center;
+/*flex-direction:column-reverse;*/
+
+/*flex-direction:column;*/
+flex-direction:row;
+
+/*messy because it is more box*/
+
+flex-wrap:wrap;
+align-content:flex-start;
+gap:20px;
+/*There is no justify-items in flexbox..*/
+}
