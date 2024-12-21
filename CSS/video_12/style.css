@@ -1,0 +1,31 @@
+*{
+    margin:0;
+    padding:0;
+}
+.container{
+background-color:pink;
+width:50vw;
+height:40vh;
+}
+.box{
+background-color:aquamarine;
+width:5vw;
+height:4vh;
+transition-property:transform;
+transition-duration:3s;
+transition-timing-function:ease-in-out;
+transition-delay:1s;
+animation-name:jiyakaanimation;
+animation-duration:3s;
+}
+@keyframes jiyakaanimation{
+    from{
+
+    }
+    to{
+        transform:translateX(10px);
+    }
+}
+.translate{
+    transform:translateX(10vw) translateY(10vh);
+}
